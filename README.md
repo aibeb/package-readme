@@ -43,6 +43,7 @@ Here is the structure of the app:
 ├── src
 │   ├── author.js
 │   ├── gitignore.js
+│   ├── index.js
 │   ├── readme.js
 │   └── structure.js
 └── yarn.lock
