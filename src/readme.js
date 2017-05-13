@@ -15,10 +15,12 @@ ${this.description}
 ${this.badge}
 
 ## Install
-${this.install}
+\`\`\`
+npm install ${this.name}
+\`\`\`
 
 ## Usage
-${this.usage}
+TODO
 
 ## Features
 Really cool app with the most popular technologies:

@@ -5,10 +5,12 @@
 badge
 
 ## Install
-install
+```
+npm install package-to-readme
+```
 
 ## Usage
-usage
+TODO
 
 ## Features
 Really cool app with the most popular technologies:
@@ -31,13 +33,18 @@ Here is the structure of the app:
 ├── .editorconfig
 ├── .eslintrc.json
 ├── README.md
-├── app
+├── index.js
+├── lib
 │   ├── author.js
 │   ├── gitignore.js
 │   ├── readme.js
 │   └── structure.js
-├── index.js
 ├── package.json
+├── src
+│   ├── author.js
+│   ├── gitignore.js
+│   ├── readme.js
+│   └── structure.js
 └── yarn.lock
 ```
 
