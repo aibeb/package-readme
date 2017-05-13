@@ -33,10 +33,10 @@ Here is the structure of the app:
 ├── .editorconfig
 ├── .eslintrc.json
 ├── README.md
-├── index.js
 ├── lib
 │   ├── author.js
 │   ├── gitignore.js
+│   ├── index.js
 │   ├── readme.js
 │   └── structure.js
 ├── package.json
