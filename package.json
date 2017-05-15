@@ -1,13 +1,13 @@
 {
-  "name": "package-to-readme",
+  "name": "package-readme",
   "version": "1.1.1",
   "description": "🔥 Generate readme.md from package.json!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eqfox/node-readme-generator.git"
+    "url": "https://github.com/eqfox/package-readme.git"
   },
-  "homepage": "https://github.com/eqfox/node-readme-generator",
-  "bugs": "https://github.com/eqfox/node-readme-generator/issues",
+  "homepage": "https://github.com/eqfox/package-readme",
+  "bugs": "https://github.com/eqfox/package-readme/issues",
   "keywords": [
     "Banner",
     "Name",
