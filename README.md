@@ -1,12 +1,32 @@
-<img src="http://www.eqfox.com/readme/banner/package-to-readme" alt="package-to-readme" align="center" />
-# package-to-readme
+<img src="http://www.eqfox.com/readme/banner/package-readme" alt="package-readme" align="center" />
+
+# package-readme
 
 🔥 Generate readme.md from package.json!
-badge
+
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Coveralls][coveralls-image]][coveralls-url]
+[![David deps][david-image]][david-url]
+[![node version][node-image]][node-url]
+[![Gittip][gittip-image]][gittip-url]
+
+[npm-image]: https://img.shields.io/npm/v/http-body-parser.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/http-body-parser
+[travis-image]: https://img.shields.io/travis/eqfox/http-body-parser.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eqfox/http-body-parser
+[coveralls-image]: https://img.shields.io/coveralls/eqfox/http-body-parser.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/eqfox/http-body-parser?branch=master
+[david-image]: https://img.shields.io/david/eqfox/http-body-parser.svg?style=flat-square
+[david-url]: https://david-dm.org/eqfox/http-body-parser
+[node-image]: https://img.shields.io/badge/node.js-%3E=_7.6-green.svg?style=flat-square
+[node-url]: http://nodejs.org/download/
+[gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
+[gittip-url]: https://www.gittip.com/dead-horse/
 
 ## Install
 ```
-npm install package-to-readme
+npm install package-readme
 ```
 
 ## Usage
@@ -33,6 +53,7 @@ Here is the structure of the app:
 ├── .editorconfig
 ├── .eslintrc.json
 ├── .npmignore
+├── .travis.yml
 ├── README.md
 ├── package.json
 ├── src
@@ -45,7 +66,7 @@ Here is the structure of the app:
 ```
 
 ## Author
-[sunwei]http://www.eqfox.com
+[sunwei](http://www.eqfox.com)
 
 ## Contributors
 undefined
