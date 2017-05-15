@@ -46,6 +46,7 @@ ${this.description}
 [gittip-url]: https://www.gittip.com/dead-horse/
 
 ## Install
+[![NPM](https://nodei.co/npm/${this.name}.png?downloads=true)](https://nodei.co/npm/${this.name}/)
 \`\`\`
 npm install ${this.name}
 \`\`\`
