@@ -32,13 +32,8 @@ Here is the structure of the app:
 ├── .babelrc
 ├── .editorconfig
 ├── .eslintrc.json
+├── .npmignore
 ├── README.md
-├── lib
-│   ├── author.js
-│   ├── gitignore.js
-│   ├── index.js
-│   ├── readme.js
-│   └── structure.js
 ├── package.json
 ├── src
 │   ├── author.js
@@ -50,7 +45,7 @@ Here is the structure of the app:
 ```
 
 ## Author
-[sunwei](http://www.eqfox.com)
+[sunwei]http://www.eqfox.com
 
 ## Contributors
 undefined
