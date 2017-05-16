@@ -2,11 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 class Readme {
-  constructor(name, description) {
-    this.logo = `<img src="http://www.eqfox.com/readme/banner/${name}" alt="${name}" align="center" />`;
+  constructor(name, description, homepage) {
     this.name = name;
     this.description = description;
-    this.badge = 'badge';
+    this.homepage = homepage;
   }
 
   save() {
@@ -19,7 +18,7 @@ class Readme {
 
   toString() {
     const template =
-`${this.logo}
+`<p align="center"><a href="${this.homepage}" target="_blank"><img src="http://47.93.19.167:5000/readme/logo?name=${this.name}"></a></p>
 
 # ${this.name}
 

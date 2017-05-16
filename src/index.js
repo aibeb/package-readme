@@ -17,7 +17,8 @@ const questions = [
   },
 ];
 
-const readme = new Readme(packageJSON.name, packageJSON.description);
+const readme = new Readme(packageJSON.name, packageJSON.description,
+  packageJSON.repository ? packageJSON.repository.url : packageJSON.homepage);
 readme.keywords = packageJSON.keywords;
 readme.structure = `${new Structure().recursion(process.cwd()).line}`;
 readme.author = new Author(packageJSON.author).toString();

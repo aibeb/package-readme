@@ -1,6 +1,4 @@
-![AWESOME COMPILERS](http://47.93.19.167:5000/readme/logo?name=123)
-<p align="center"><a href="https://vuejs.org" target="_blank"><img src="http://47.93.19.167:5000/readme/logo?name=123"></a></p>
-
+<p align="center"><a href="https://github.com/eqfox/package-readme.git" target="_blank"><img src="http://47.93.19.167:5000/readme/logo?name=package-readme"></a></p>
 
 # package-readme
 
