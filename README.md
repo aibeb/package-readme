@@ -1,4 +1,6 @@
-<img src="http://www.eqfox.com/readme/banner/package-readme" alt="package-readme" align="center" />
+![AWESOME COMPILERS](http://localhost:5000/readme/logo?name=123)
+<p align="center"><a href="https://vuejs.org" target="_blank"><img src="http://localhost:5000/readme/logo?name=123"></a></p>
+
 
 # package-readme
 
@@ -11,10 +13,10 @@
 [![node version][node-image]][node-url]
 [![Gittip][gittip-image]][gittip-url]
 
-[npm-image]: https://img.shields.io/npm/v/http-body-parser.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/http-body-parser
+[npm-image]: https://img.shields.io/npm/v/package-readme.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/package-readme
 [travis-image]: https://img.shields.io/travis/eqfox/http-body-parser.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eqfox/http-body-parser
+[travis-url]: https://travis-ci.org/eqfox/package-readme
 [coveralls-image]: https://img.shields.io/coveralls/eqfox/http-body-parser.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/eqfox/http-body-parser?branch=master
 [david-image]: https://img.shields.io/david/eqfox/http-body-parser.svg?style=flat-square
@@ -25,6 +27,7 @@
 [gittip-url]: https://www.gittip.com/dead-horse/
 
 ## Install
+[![NPM](https://nodei.co/npm/package-readme.png?downloads=true)](https://nodei.co/npm/package-readme/)
 ```
 npm install package-readme
 ```

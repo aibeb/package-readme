@@ -3,7 +3,7 @@ import path from 'path';
 
 class Readme {
   constructor(name, description) {
-    this.banner = `<img src="http://www.eqfox.com/readme/banner/${name}" alt="${name}" align="center" />`;
+    this.logo = `<img src="http://www.eqfox.com/readme/banner/${name}" alt="${name}" align="center" />`;
     this.name = name;
     this.description = description;
     this.badge = 'badge';
@@ -19,7 +19,7 @@ class Readme {
 
   toString() {
     const template =
-`${this.banner}
+`${this.logo}
 
 # ${this.name}
 
@@ -35,7 +35,7 @@ ${this.description}
 [npm-image]: https://img.shields.io/npm/v/${this.name}.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/${this.name}
 [travis-image]: https://img.shields.io/travis/eqfox/http-body-parser.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eqfox/http-body-parser
+[travis-url]: https://travis-ci.org/eqfox/${this.name}
 [coveralls-image]: https://img.shields.io/coveralls/eqfox/http-body-parser.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/eqfox/http-body-parser?branch=master
 [david-image]: https://img.shields.io/david/eqfox/http-body-parser.svg?style=flat-square
