@@ -15,6 +15,7 @@ readme.structure = `${new Structure().recursion(process.cwd()).line}`;
 readme.author = new Author(packageJSON.author);
 readme.contributors = packageJSON.contributors;
 readme.license = packageJSON.license;
+readme.date = new Date();
 
 const questions = [
   {
