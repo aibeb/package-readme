@@ -18,7 +18,7 @@ class Readme {
 
   toString() {
     const template =
-`<p align="center"><a href="${this.homepage}" target="_blank"><img src="http://47.93.19.167:5000/readme/logo?name=${this.name}&uuid=${this.date.getTime()}"></a></p>
+`<p align="center"><a href="${this.homepage}" target="_blank"><img src="http://47.93.19.167:5000/readme/logo?name=${this.name}"></a></p>
 
 # ${this.name}
 

@@ -15,7 +15,6 @@ readme.structure = `${new Structure().recursion(process.cwd()).line}`;
 readme.author = new Author(packageJSON.author);
 readme.contributors = packageJSON.contributors;
 readme.license = packageJSON.license;
-readme.date = new Date();
 
 const questions = [
   {
@@ -29,6 +28,9 @@ const questions = [
     name: 'namespace',
     message: `Use ${readme.author.name} as namespace, useage: https://github.com/{namespace}/package-readme?`,
     default: readme.author.name,
+    when(answers) {
+      return answers.overwrite;
+    },
   },
 ];
 
