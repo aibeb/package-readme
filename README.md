@@ -13,12 +13,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/package-readme.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/package-readme
-[travis-image]: https://img.shields.io/travis/eqfox/http-body-parser.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/https://github.com/eqfox/package-readme.git/package-readme.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eqfox/package-readme
-[coveralls-image]: https://img.shields.io/coveralls/eqfox/http-body-parser.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/eqfox/http-body-parser?branch=master
-[david-image]: https://img.shields.io/david/eqfox/http-body-parser.svg?style=flat-square
-[david-url]: https://david-dm.org/eqfox/http-body-parser
+[coveralls-image]: https://img.shields.io/coveralls/eqfox/package-readme.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/eqfox/package-readme?branch=master
+[david-image]: https://img.shields.io/david/eqfox/package-readme.svg?style=flat-square
+[david-url]: https://david-dm.org/eqfox/package-readme
 [node-image]: https://img.shields.io/badge/node.js-%3E=_7.6-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
@@ -67,7 +67,7 @@ Here is the structure of the app:
 ```
 
 ## Author
-[sunwei](http://www.eqfox.com)
+[eqfox](http://www.eqfox.com)
 
 ## Contributors
 undefined

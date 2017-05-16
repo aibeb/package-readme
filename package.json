@@ -30,7 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build"
   },
-  "author": "sunwei <sunwei@eqfox.com> (http://www.eqfox.com)",
+  "author": "eqfox <sunwei@eqfox.com> (http://www.eqfox.com)",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.19.1",

@@ -33,12 +33,12 @@ ${this.description}
 
 [npm-image]: https://img.shields.io/npm/v/${this.name}.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/${this.name}
-[travis-image]: https://img.shields.io/travis/eqfox/http-body-parser.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eqfox/${this.name}
-[coveralls-image]: https://img.shields.io/coveralls/eqfox/http-body-parser.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/eqfox/http-body-parser?branch=master
-[david-image]: https://img.shields.io/david/eqfox/http-body-parser.svg?style=flat-square
-[david-url]: https://david-dm.org/eqfox/http-body-parser
+[travis-image]: https://img.shields.io/travis/${this.homepage}/${this.name}.svg?style=flat-square
+[travis-url]: https://travis-ci.org/${this.namespace}/${this.name}
+[coveralls-image]: https://img.shields.io/coveralls/${this.namespace}/${this.name}.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/${this.namespace}/${this.name}?branch=master
+[david-image]: https://img.shields.io/david/${this.namespace}/${this.name}.svg?style=flat-square
+[david-url]: https://david-dm.org/${this.namespace}/${this.name}
 [node-image]: https://img.shields.io/badge/node.js-%3E=_7.6-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
@@ -64,7 +64,7 @@ ${this.structure}
 \`\`\`
 
 ## Author
-${this.author}
+[${this.author.name}]${this.author.url}
 
 ## Contributors
 ${this.contributors}

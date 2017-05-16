@@ -11,10 +11,6 @@ class Author {
       this.url = _person.url;
     }
   }
-
-  toString() {
-    return `[${this.name}]${this.url}`;
-  }
 }
 
 export default Author;
