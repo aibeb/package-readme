@@ -35,8 +35,7 @@ const questions = [
 ];
 
 const start = async () => {
-  const oldReadme = fs.readFileSync(path.join(process.cwd(), 'README.md'));
-  if (oldReadme) {
+  if (fs.existsSync(path.join(process.cwd(), 'README.md'))) {
     const answers = await inquirer.prompt(questions);
     readme.namespace = answers.namespace;
     if (answers.overwrite) {
