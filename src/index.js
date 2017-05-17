@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 import Readme from './readme';
 import Structure from './structure';
 import Author from './author';
-import packageJSON from '../package.json';
+const packageJSON = require(path.join(process.cwd(), 'package.json'));
 
 const readme = new Readme(packageJSON.name, packageJSON.description,
   packageJSON.repository ? packageJSON.repository.url : packageJSON.homepage);
