@@ -5,5 +5,8 @@
         "node": 6.0
       }
     }]
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
   ]
 }
